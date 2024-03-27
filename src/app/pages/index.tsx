@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import { LogInWithAnonAadhaar, useAnonAadhaar } from "@anon-aadhaar/react";
 import { Dispatch, useEffect, SetStateAction } from "react";
-import { Stepper } from "../components/Stepper";
+// import { Stepper } from "../components/Stepper";
 import { useRouter } from "next/router";
-import { UserStatus } from "@/interface";
+// import { UserStatus } from "@/interface";
 import { useAccount } from "wagmi";
 
 type HomeProps = {
